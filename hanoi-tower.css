@@ -51,3 +51,34 @@
   width: 400px;
   height: 400px;
 }
+#root {
+  position: relative;
+  width: 70vw;
+  height: 70vh;
+}
+
+.grey,
+.darkblue,
+.purple,
+.red,
+.green,
+.blue,
+.yellow,
+.black {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.purple {
+  z-index: 1;
+}
+.red,
+.green,
+.blue,
+.yellow {
+  z-index: 2;
+}
+.black {
+  z-index: 3;
+}
